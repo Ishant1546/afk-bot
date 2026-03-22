@@ -8,51 +8,11 @@ const express = require("express");
 // Multi-bot configuration - 5 bots
 const BOTS = [
    {
-      id: 1,
-      name: "Bot1",
-      port: 8001,
-      account: {
-         username: "Heartless_MC8",  // Change these usernames
-         password: "notasecurepassword123",
-         type: "offline"
-      }
-   },
-   {
-      id: 2,
-      name: "Bot2",
-      port: 8002,
-      account: {
-         username: "Heartless_MC6",  // Change these usernames
-         password: "notasecurepassword123",
-         type: "offline"
-      }
-   },
-   {
-      id: 3,
-      name: "Bot3",
-      port: 8003,
-      account: {
-         username: "Heartless_MC7",  // Change these usernames
-         password: "notasecurepassword123",
-         type: "offline"
-      }
-   },
-   {
-      id: 4,
-      name: "Bot4",
-      port: 8004,
-      account: {
-         username: "Heartless_MC9",  // Change these usernames
-         password: "notasecurepassword123",
-         type: "offline"
-      }
-   },
-   {
       id: 5,
       name: "Bot5",
       port: 8005,
       account: {
-         username: "Heartless_MC10",  // Change these usernames
+         username: "Heartless_MC1",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
