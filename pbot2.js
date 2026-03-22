@@ -12,7 +12,7 @@ const BOTS = [
       name: "Bot1",
       port: 8001,
       account: {
-         username: "Heartless_MC8",  // Change these usernames
+         username: "Heartless_MC11",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
@@ -22,7 +22,7 @@ const BOTS = [
       name: "Bot2",
       port: 8002,
       account: {
-         username: "Heartless_MC6",  // Change these usernames
+         username: "Heartless_MC12",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
@@ -32,7 +32,7 @@ const BOTS = [
       name: "Bot3",
       port: 8003,
       account: {
-         username: "Heartless_MC7",  // Change these usernames
+         username: "Heartless_MC13",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
@@ -42,7 +42,7 @@ const BOTS = [
       name: "Bot4",
       port: 8004,
       account: {
-         username: "Heartless_MC9",  // Change these usernames
+         username: "Heartless_MC14",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
@@ -52,7 +52,7 @@ const BOTS = [
       name: "Bot5",
       port: 8005,
       account: {
-         username: "Heartless_MC10",  // Change these usernames
+         username: "Heartless_MC15",  // Change these usernames
          password: "notasecurepassword123",
          type: "offline"
       }
