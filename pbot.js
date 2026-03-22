@@ -134,7 +134,7 @@ function createBot(botConfig) {
    bot.startTime = Date.now();
    bot.reconnectAttempts = 0;
    bot.maxReconnectAttempts = Infinity; // Never give up
-   bot.reconnectDelay = 5000; // Start with 5 seconds
+   bot.reconnectDelay = 10000; // Start with 5 seconds
 
    // Load pathfinder
    bot.loadPlugin(pathfinder);
@@ -204,7 +204,7 @@ function createBot(botConfig) {
    bot.once("login", () => {
       console.log(`[${botConfig.name}] ✅ Logged in as ${bot.username}`);
       bot.reconnectAttempts = 0; // Reset reconnect attempts on successful login
-      bot.reconnectDelay = 5000; // Reset delay
+      bot.reconnectDelay = 10000; // Reset delay
    });
 
    // Event: Spawn
