@@ -5,8 +5,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "HeartlessMC_S1.aternos.me",
-    "port": 45705,
+    "ip": "HeartlessXTokenSMP.aternos.me",
+    "port": 46093,
     "version": "1.12.2"
   },
   "position": {
